@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	 <link rel="stylesheet" type="text/css" href="./reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">  
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./app.js"></script>
+
+	<title>Survey</title>
+</head>
+<body>
+    <div class="modal fade bs-example-modal-lg" id="match-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <h2>Say Hi to your Match!</h2>
+        <h3 id="match-name">test</h3>
+        <img  id="match-photo" src="" alt="" class="img-thumbnail">
+      </div>
+    </div>
+    </div>
+ 
+ <div class= "container">
+ 	<h2>Survey Questions</h2>
+ 	<hr>
+ 	<h3><strong>Who are you</strong></h3>
+ 	<hr>
+ 	<h4>Full Name</h4>
+ 	<input class= "form-control" type="text" id="name">
+ 	<hr>
+ 	<h4>Link to Image</h4>
+ 	<input class= "form-control" type="text" id="photo">
+ 
+
+  <h5><strong>Question 1</strong></h5>
+                <p>SRT4 is the best car known to mankind</p>
+                <select data-placeholder="" class="question" id="question1" >
+                    <option value="0">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <h5><strong>Question 2</strong></h5>
+                <p>Sometimes, I wish I was made of jello</p>
+                <select data-placeholder="" class="question" id="question12">
+                    <option value="0">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <h5><strong>Question 3</strong></h5>
+                <p>The Room is a good movie.</p>
+                <select data-placeholder="" class="question" id="question3">
+                    <option value="0">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <h5><strong>Question 4</strong></h5>
+                <p>Dogs are better than cats</p>
+                <select data-placeholder="" class="question" id="question4">
+                    <option value="0">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <h5><strong>Question 5</strong></h5>
+                <p>Sometimes, I stay up all night watching Friends</p>
+                <select data-placeholder="" class="question" id="question5">
+                    <option value="0">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <h5><strong>Question 6</strong></h5>
+                <p>Tide Pods are my main source of nutrients</p>
+                <select data-placeholder="" class="question" id="question6">
+                    <option value="0">Choose an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <h5><strong>Question 7</strong></h5>
+                <p>In my free time, I often sing to my imaginary squirrel friend</p>
+                <select data-placeholder="" class="question" id="question7">
+                    <option value="0">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <h5><strong>Question 8</strong></h5>
+                <p>Taiwan is #1</p>
+                <select data-placeholder="" class="question" id="question8">
+                    <option value="0">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <h5><strong>Question 9</strong></h5>
+                <p>Showering only once a week is good way to preserve natural oils</p>
+                <select data-placeholder="" class="question" id="question9">
+                    <option value="0">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <h5><strong>Question 10</strong></h5>
+                <p>Brushing your teeth is a good way to fight gum disease</p>
+                <select data-placeholder="" class="question" id="question10">
+                    <option value="0">Choose an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <br>
+
+                <button type="button" class="btn btn-secondary btn-lg" id= "submit">Submit Survey</button>

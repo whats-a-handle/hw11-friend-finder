@@ -1,0 +1,26 @@
+{
+  "name": "hw11-friend-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whats-a-handle/hw11-friend-finder.git"
+  },
+  "author": "Will P <wpr0163@gmail.com> (https://github.com/whats-a-handle)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whats-a-handle/hw11-friend-finder/issues"
+  },
+  "homepage": "https://github.com/whats-a-handle/hw11-friend-finder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}
